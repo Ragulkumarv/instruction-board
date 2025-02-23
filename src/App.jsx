@@ -1,7 +1,8 @@
 import "./App.css";
+import InstructionBoard from "./components/InstructionBoard";
 
 function App() {
-  return <div className="flex underline font-bold">Hello</div>;
+  return <InstructionBoard />;
 }
 
 export default App;
