@@ -77,7 +77,7 @@ const InstructionBoard = () => {
         {instructions.map((instruction, index) => (
           <li
             key={index}
-            className="flex gap-2 items-center justify-center p-2 bg-gray-300 rounded-lg"
+            className="flex gap-2 items-center justify-center p-2 bg-gray-400 rounded-lg"
           >
             <p>
               <span>{index + 1}. </span>
