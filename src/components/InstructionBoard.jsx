@@ -67,7 +67,7 @@ const InstructionBoard = () => {
           }}
         />
         <button
-          className="px-6 py-2 rounded-lg cursor-pointer bg-amber-400"
+          className="px-6 py-2 rounded-lg cursor-pointer bg-amber-400 hover:bg-gray-300"
           onClick={() => handleAdd()}
         >
           Add
