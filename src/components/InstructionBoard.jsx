@@ -1,6 +1,12 @@
 import { useEffect, useRef, useState } from "react";
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
+//have 2 states one for storing instructions and other for storing input keyterms
+//have one ref to control focus
+//one function to add instructions on btn click
+//one function to handle up move
+//one function to handle down move
+
 const InstructionBoard = () => {
   const [instructions, setInstructions] = useState([]);
   const [inputVal, setInputVal] = useState("");
